@@ -1,5 +1,6 @@
-package edu.eci.arsw.springdemo;
+package edu.eci.arsw.springdemo.beans;
 
+import edu.eci.arsw.springdemo.SpellChecker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

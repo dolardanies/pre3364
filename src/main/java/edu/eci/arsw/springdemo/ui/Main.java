@@ -5,7 +5,7 @@
  */
 package edu.eci.arsw.springdemo.ui;
 
-import edu.eci.arsw.springdemo.GrammarChecker;
+import edu.eci.arsw.springdemo.beans.GrammarChecker;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
