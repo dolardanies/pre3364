@@ -5,10 +5,10 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class SpanishSpellChecker implements SpellChecker {
 
-	@Autowired
+	@Override
 	public String checkSpell(String text) {
 		return "revisando ("+text+") con el verificador de sintaxis del espanol";
                 

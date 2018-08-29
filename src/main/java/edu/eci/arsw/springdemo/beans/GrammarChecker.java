@@ -4,9 +4,10 @@ import edu.eci.arsw.springdemo.SpellChecker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
+@Service
 public class GrammarChecker {
-
+    
+        @Autowired
 	SpellChecker sc;
 
 	String x;
